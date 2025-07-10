@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Visible - Belluccia 3</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">FrikiCaja</a>
+
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Equipo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="hero-rediseñado d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8">
+        <h1 class="hero-titulo">Una dosis de cultura pop puerta a puerta</h1>
+        <p class="hero-texto">
+          Descubrí nuestras cajas especiales y viví la emoción de coleccionar.  
+          Cada mes te enviamos una selección curada con objetos únicos.
+        </p>
+        <a href="#" class="btn btn-primary btn-hero">Ver más</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+<!-- Sección Marcas Geek -->
+<section class="bg-danger py-5">
+  <div class="container">
+    <div class="row justify-content-center align-items-center text-center g-4">
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Marvel.png" alt="Marvel" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Nintendo.png" alt="Nintendo" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Play.png" alt="PlayStation" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Dc.png" alt="DC Comics" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Harry.png" alt="Harry Potter" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <img src="assets/imagenes/Xbox.png" alt="Xbox" class="img-fluid brand-logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ¿Quiénes somos? -->
+<section class="quienes-somos py-5">
+  <div class="container">
+    <!-- Título -->
+    <h2 class="titulo-principal text-center mb-3">¿Quiénes somos?</h2>
+    <p class="subtitulo text-center mb-5">
+      Somos un equipo de fans que transformamos nuestra pasión en una experiencia para compartir.
+    </p>
+
+    <!-- Contenido -->
+    <div class="row align-items-center">
+      <!-- Columna Texto -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="etiqueta">Fanáticos de coleccionar</div>
+        <h3 class="titulo-secundario mb-3">
+          Detrás de cada caja, hay<br>una pasión compartida
+        </h3>
+        <div class="linea-decorativa mb-3"></div>
+        <p>
+          Nacimos de una idea simple: <strong>compartir el placer de coleccionar.</strong><br>
+          De chicos éramos los que guardaban cada figura o póster como si fuera un tesoro. Esa misma <strong>emoción es la que ponemos en cada caja que armamos.</strong>
+        </p>
+      </div>
+
+      <!-- Columna Imagen -->
+      <div class="col-lg-6 text-center">
+        <div class="imagen-caja">
+          <!-- Reemplazá el fondo negro con tu imagen -->
+          <img src="assets/imagenes/quienesomos.png" alt="Equipo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ¿Como llega a tu casa? -->
+
+<section class="como-llega">
+  <div class="container text-center">
+    <h2 class="titulo-principal">¿Cómo llega a tu casa?</h2>
+    <p class="subtitulo">Vas a encontrar una selección exclusiva de objetos que no se consiguen en cualquier lado.</p>
+
+    <div class="row pasos">
+      <div class="col-md-4 paso">
+        <img src="assets/imagenes/chip5.png" alt="Icono armado" class="paso-icono">
+        <h3 class="paso-titulo">Armamos tu caja con dedicación</h3>
+        <p class="paso-texto">Seleccionamos y preparamos cada objeto con cuidado, como si fuera para nosotros.</p>
+      </div>
+      <div class="col-md-4 paso">
+        <img src="assets/imagenes/chip6.png" alt="Icono envío" class="paso-icono">
+        <h3 class="paso-titulo">La enviamos donde estés</h3>
+        <p class="paso-texto">Trabajamos con servicios seguros y rápidos para que tu caja llegue en tiempo y forma.</p>
+      </div>
+      <div class="col-md-4 paso">
+        <img src="assets/imagenes/chip7.png" alt="Icono recibido" class="paso-icono">
+        <h3 class="paso-titulo">La recibís en tu casa, lista</h3>
+        <p class="paso-texto">Cada caja llega protegida y lista para que vivas una experiencia única al abrirla.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: Qué trae Friki Caja -->
+<section class="friki-caja">
+  <div class="container">
+    <h2 class="titulo-principal">Que trae Friki Caja</h2>
+    <p class="subtitulo">Vas a encontrar una selección exclusiva de objetos que no se consiguen en cualquier lado.</p>
+    <div class="contenido">
+      <div class="imagen">
+        <img src="assets/imagenes/quetrae.png" alt="Contenido de la Friki Caja">
+      </div>
+      <div class="detalles">
+        <h3 class="titulo-detalles">¿Qué hay dentro?</h3>
+        <div class="items">
+          <div class="item">
+            <img src="assets/imagenes/calavera.png" alt="Ícono figura">
+            <h4>Figura de colección</h4>
+            <p>Una pieza única para sumar a tu vitrina. Siempre fiel al universo,</p>
+          </div>
+          <div class="item">
+            <img src="assets/imagenes/remera.png" alt="Ícono remera">
+            <h4>Remera exclusiva</h4>
+            <p>Diseños que no vas a encontrar en otro lado. Solo para suscriptores.</p>
+          </div>
+          <div class="item">
+            <img src="assets/imagenes/comic.png" alt="Ícono cómic">
+            <h4>Comic especial</h4>
+            <p>Un ejemplar especial para que te sumerjas en una buena historia.</p>
+          </div>
+          <div class="item">
+            <img src="assets/imagenes/cuadro.png" alt="Ícono póster">
+            <h4>Póster temático</h4>
+            <p>Ilustraciones originales para decorar tu espacio con identidad fan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: Planes de suscripción -->
+<section class="planes">
+  <div class="container">
+    <h2 class="titulo-principal">Elegí tu plan y empezá a coleccionar</h2>
+    <p class="subtitulo">Tres formas de vivir la experiencia: desde el primer paso hasta el modo leyenda</p>
+
+    <div class="cards">
+
+      <!-- Plan Clásico -->
+      <div class="card">
+        <div class="img-wrap">
+          <img src="assets/imagenes/sub1.png" alt="Plan Clásico">
+        </div>
+        <div class="card-inner">
+          <h3>Plan Clásico</h3>
+          <p class="descripcion">Para quienes quieren empezar a coleccionar</p>
+          <p class="precio">$20.000 <span>/mes</span></p>
+          <ul>
+            <li>1 caja por mes</li>
+            <li>4 a 5 objetos por caja</li>
+            <li>Temática sorpresa</li>
+            <li>Cancelá cuando quieras</li>
+            <li>Acceso a contenido digital adicional</li>
+          </ul>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+      </div>
+
+      <!-- Plan Leyenda -->
+      <div class="card destacado">
+        <div class="img-wrap">
+          <img src="assets/imagenes/sub2.png" alt="Plan Leyenda">
+        </div>
+        <div class="card-inner">
+          <h3>Plan Leyenda</h3>
+          <p class="descripcion">Para coleccionistas de verdad</p>
+          <p class="precio">$45.000 <span>/mes</span></p>
+          <ul>
+            <li>1 caja XL por mes</li>
+            <li>6 a 8 objetos premium</li>
+            <li>Ítem exclusivo limitado</li>
+            <li>Regalo especial cada 3 meses</li>
+            <li>Acceso a contenido digital adicional</li>
+          </ul>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+      </div>
+
+      <!-- Plan Fan Total -->
+      <div class="card">
+        <div class="img-wrap">
+          <img src="assets/imagenes/sub3.png" alt="Plan Fan Total">
+        </div>
+        <div class="card-inner">
+          <h3>Plan Fan Total</h3>
+          <p class="descripcion">Ideal para fanáticos que quieren la experiencia completa</p>
+          <p class="precio">$30.000 <span>/mes</span></p>
+          <ul>
+            <li>1 caja por mes</li>
+            <li>5 a 6 objetos exclusivos</li>
+            <li>Temática sorpresa</li>
+            <li>Cancelá cuando quieras</li>
+            <li>Acceso a contenido digital adicional</li>
+          </ul>
+          <a href="#" class="btn">Suscribirse</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="testimonios-seccion">
+  <h2 class="testimonios-titulo">Lo dicen quienes ya abrieron su caja</h2>
+  <p class="testimonios-subtitulo">
+    Descubrí qué piensan nuestros suscriptores después de recibir sus objetos de colección favoritos.
+  </p>
+  <div class="testimonios-grid">
+
+    <div class="testimonios-card testimonio1">
+      <div class="testimonios-iconos">
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+      </div>
+      <h3>“Un regalo para mí cada mes”</h3>
+      <p>No sabía lo bien que se siente recibir algo tan pensado. La figura de este mes fue increíble, y la remera me queda perfecta. Todo llega súper cuidado y en su lugar.</p>
+      <div class="testimonios-autor">
+        <img src="assets/imagenes/testi1.png" alt="Rocambole" />
+        <span>Rocambole Gimenez</span>
+      </div>
+    </div>
+
+    <div class="testimonios-card testimonio2">
+      <div class="testimonios-iconos">
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+      </div>
+      <h3>“Me sorprendió un montón”</h3>
+      <p>Pensé que iba a ser algo más simple, pero la caja viene con detalles, contenido extra, y hasta una tarjeta coleccionable. Súper recomendable.</p>
+      <div class="testimonios-autor">
+        <img src="assets/imagenes/testi2.png" alt="Miguel Ángel" />
+        <span>Miguel Ángel Sardina</span>
+      </div>
+    </div>
+
+    <div class="testimonios-card testimonio3">
+      <div class="testimonios-iconos">
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+        <img src="assets/imagenes/clavo.png" alt="Decoración" />
+      </div>
+      <h3>“100 % fan service”</h3>
+      <p>Pensé que iba a ser algo más simple, pero la caja viene con detalles, contenido extra, y hasta una tarjeta coleccionable. Súper recomendable.</p>
+      <div class="testimonios-autor">
+        <img src="assets/imagenes/testi3.png" alt="Lola Raulito" />
+        <span>Lola Raulito</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- VIDEO -->
+
+<section class="unboxing-section">
+  <h2>Unboxing real</h2>
+  <p>¡Mirá el video de un cliente abriendo su pedido!</p>
+
+  <div class="video-container">
+    <video id="unboxingVideo" poster="assets/imagenes/boton-play.jpg">
+      <source src="assets/imagenes/caja.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+    <div class="play-button" onclick="playVideo()">▶</div>
+  </div>
+</section>
+
+<!-- Script para reproducir el video -->
+<script>
+  function playVideo() {
+    const video = document.getElementById("unboxingVideo");
+    video.play();
+    video.setAttribute("controls", true);
+    document.querySelector(".play-button").style.display = "none";
+  }
+</script>
+
+<!-- SCRIPT -->
+<script>
+  function playVideo() {
+    const video = document.getElementById("unboxingVideo");
+    video.play();
+    video.setAttribute("controls", true);
+    document.querySelector(".play-button").style.display = "none";
+  }
+</script>
+
+<!-- CONTACT FORM: Formulario de contacto -->
+<section class="section-spacing container text-center">
+  <h2 class="h2-custom">Formulario de Contacto</h2>
+  <p class="p-custom">Envía un mensaje directamente desde la web.</p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Tu email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- /CONTACT FORM -->
+
+<!-- FOOTER: Pie de página -->
+<footer class="text-center py-4">
+  <div class="container">
+    <p class="p-custom">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>
